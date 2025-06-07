@@ -1,0 +1,53 @@
+# created by virtualenv automatically
+# ===================================================================
+# Arquivos de Segredos e Configurações de Ambiente
+# A parte MAIS IMPORTANTE. Impede que suas chaves de API vazem.
+# ===================================================================
+.env
+*.env
+
+# O Streamlit também usa um arquivo de segredos que deve ser ignorado
+.streamlit/secrets.toml
+
+
+# ===================================================================
+# Pasta do Ambiente Virtual do Python
+# Essencial! Essa pasta contém uma cópia do Python e todas as
+# bibliotecas instaladas. Ela é muito grande e específica
+# para o seu sistema operacional. O arquivo requirements.txt
+# é a forma correta de compartilhar as dependências.
+# ===================================================================
+venv/
+.venv/
+env/
+.env/
+__pypackages__/
+
+
+# ===================================================================
+# Arquivos de Cache e Compilados do Python
+# O Python cria esses arquivos para rodar seu código mais rápido.
+# Eles são gerados automaticamente e não precisam ser guardados.
+# ===================================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# ===================================================================
+# Pastas de configuração de Editores de Código e IDEs
+# Guardam configurações pessoais do seu editor (VS Code, PyCharm, etc).
+# ===================================================================
+.vscode/
+.idea/
+.project
+.settings/
+
+
+# ===================================================================
+# Arquivos de Sistema Operacional
+# Lixo gerado pelo macOS, Windows ou Linux.
+# ===================================================================
+.DS_Store
+Thumbs.db
